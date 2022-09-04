@@ -1,0 +1,11 @@
+pause 2000
+join triangle
+pause 10000
+join square
+# disconnect triangle
+pause 15000
+result triangle
+# join triangle
+pause 7000
+info
+stop

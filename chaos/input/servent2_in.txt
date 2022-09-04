@@ -1,0 +1,9 @@
+pause 3000
+join triangle
+pause 5000
+# result triangle
+join square
+# pause 5000
+pause 30000
+info
+stop

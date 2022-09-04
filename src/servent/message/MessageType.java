@@ -1,0 +1,21 @@
+package servent.message;
+
+public enum MessageType {
+	JOIN,
+	DISCONNECT,
+	HELLO,
+	WELCOME,
+	WORK,
+	DHT_GET,
+	RESULT,
+	REPLACE_NODE,
+	PING,
+	PONG,
+	NOT_RESPONDING,
+	NEW_NODE,
+	TELL_GET,
+	SORRY,
+	UPDATE,
+	PUT,
+	POISON
+}

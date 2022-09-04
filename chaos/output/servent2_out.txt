@@ -1,0 +1,66 @@
+23:01:44 - Starting servent [null|localhost|1300]
+23:01:44 - Pausing for 3000 ms
+23:01:47 - Pausing for 5000 ms
+23:01:48 - ( triang ) Sending message [2|0|3|JOIN|-1]
+23:01:49 - ( triang ) Got message [-1|2||JOIN|2]
+23:01:50 - ( triang ) Sending message [2|1||HELLO|0]
+23:01:50 - ( triang ) Sending message [2|2||HELLO|1]
+23:01:51 - ( triang ) Got message [0|5||WORK|2]
+23:01:51 - ( triang ) Got message [0|3||WELCOME|2]
+23:01:52 - ( triang ) Got message [1|2||WELCOME|2]
+23:01:52 - Pausing for 30000 ms
+23:01:53 - ( square ) Sending message [2|3|4|JOIN|-1]
+23:01:54 - ( square ) Got message [-1|6||JOIN|2]
+23:01:55 - ( square ) Sending message [2|4||HELLO|0]
+23:01:56 - ( square ) Got message [0|10||WELCOME|2]
+23:01:57 - ( square ) Got message [3|5||HELLO|2]
+23:01:57 - ( square ) Got message [4|5||HELLO|2]
+23:01:58 - ( square ) Sending message [2|5||WELCOME|3]
+23:01:58 - ( square ) Sending message [2|6||WELCOME|4]
+23:01:59 - ( square ) Got message [0|13||WORK|2]
+23:02:10 - ( square ) Got message [4|9||RESULT|2]
+collectResults();
+Waiting for results from: [[0|localhost|1100], [2|localhost|1400]]
+23:02:11 - ( square ) Sending message [2|7||RESULT|0]
+23:02:11 - ( square ) Got message [0|18||RESULT|2]
+collectResults();
+Already collected.
+23:02:11 - ( square ) Got message [3|8||RESULT|2]
+collectResults();
+Already collected.
+23:02:11 - ( square ) Sending message [2|8||RESULT|3]
+23:02:12 - ( triang ) Got message [1|6||RESULT|2]
+collectResults();
+Waiting for results from: [[0|localhost|1100]]
+23:02:12 - ( square ) Sending message [2|9||RESULT|0]
+23:02:12 - ( square ) Sending message [2|10||RESULT|3]
+23:02:12 - ( square ) Got message [0|20||RESULT|2]
+23:02:13 - ( triang ) Sending message [2|11||RESULT|0]
+23:02:13 - ( triang ) Got message [0|25||RESULT|2]
+collectResults();
+Already collected.
+23:02:13 - ( square ) Got message [3|9||RESULT|2]
+Got results: [DhtResult{key='1', values=[java.awt.Point[x=405,y=45], java.awt.Point[x=41,y=50], java.awt.Point[x=409,y=455], java.awt.Point[x=446,y=496], java.awt.Point[x=450,y=500], java.awt.Point[x=450,y=95], java.awt.Point[x=450,y=55], java.awt.Point[x=450,y=456], java.awt.Point[x=45,y=91], java.awt.Point[x=5,y=459], java.awt.Point[x=406,y=496], java.awt.Point[x=446,y=500], java.awt.Point[x=45,y=500], java.awt.Point[x=5,y=500], java.awt.Point[x=406,y=95], java.awt.Point[x=446,y=55], java.awt.Point[x=450,y=456], java.awt.Point[x=450,y=91], java.awt.Point[x=45,y=54], java.awt.Point[x=5,y=50], java.awt.Point[x=1,y=50], java.awt.Point[x=0,y=50], java.awt.Point[x=405,y=50], java.awt.Point[x=41,y=455], java.awt.Point[x=4,y=496], java.awt.Point[x=405,y=500], java.awt.Point[x=446,y=95], java.awt.Point[x=450,y=55], java.awt.Point[x=45,y=51], java.awt.Point[x=410,y=50], java.awt.Point[x=446,y=455], java.awt.Point[x=45,y=91], java.awt.Point[x=410,y=459], java.awt.Point[x=446,y=91], java.awt.Point[x=45,y=459], java.awt.Point[x=5,y=496], java.awt.Point[x=406,y=500], java.awt.Point[x=446,y=500], java.awt.Point[x=450,y=95], java.awt.Point[x=45,y=55], java.awt.Point[x=410,y=51], java.awt.Point[x=446,y=50], java.awt.Point[x=45,y=455], java.awt.Point[x=5,y=91], java.awt.Point[x=1,y=459], java.awt.Point[x=405,y=496], java.awt.Point[x=41,y=500], java.awt.Point[x=409,y=95], java.awt.Point[x=41,y=55], java.awt.Point[x=4,y=456], java.awt.Point[x=0,y=496], java.awt.Point[x=0,y=95], java.awt.Point[x=0,y=55], java.awt.Point[x=405,y=51], java.awt.Point[x=446,y=50], java.awt.Point[x=45,y=50], java.awt.Point[x=5,y=455], java.awt.Point[x=406,y=91], java.awt.Point[x=41,y=459], java.awt.Point[x=409,y=496], java.awt.Point[x=41,y=500], java.awt.Point[x=4,y=500], java.awt.Point[x=0,y=500], java.awt.Point[x=405,y=95], java.awt.Point[x=446,y=55], java.awt.Point[x=45,y=51], java.awt.Point[x=410,y=455], java.awt.Point[x=41,y=91], java.awt.Point[x=409,y=54], java.awt.Point[x=446,y=50], java.awt.Point[x=45,y=455], java.awt.Point[x=5,y=91], java.awt.Point[x=406,y=459], java.awt.Point[x=446,y=496], java.awt.Point[x=45,y=500], java.awt.Point[x=5,y=95], java.awt.Point[x=406,y=55], java.awt.Point[x=446,y=51], java.awt.Point[x=45,y=455], java.awt.Point[x=410,y=91], java.awt.Point[x=41,y=459], java.awt.Point[x=4,y=91], java.awt.Point[x=0,y=54], java.awt.Point[x=0,y=455], java.awt.Point[x=405,y=91], java.awt.Point[x=41,y=459], java.awt.Point[x=4,y=91], java.awt.Point[x=0,y=54], java.awt.Point[x=0,y=50], java.awt.Point[x=0,y=50], java.awt.Point[x=0,y=455], java.awt.Point[x=405,y=91], java.awt.Point[x=41,y=54], java.awt.Point[x=4,y=455], java.awt.Point[x=0,y=91], java.awt.Point[x=405,y=459], java.awt.Point[x=41,y=496], java.awt.Point[x=4,y=95], java.awt.Point[x=405,y=460], java.awt.Point[x=41,y=496], java.awt.Point[x=409,y=95], java.awt.Point[x=446,y=55], java.awt.Point[x=45,y=456], java.awt.Point[x=410,y=496], java.awt.Point[x=41,y=500], java.awt.Point[x=409,y=95], java.awt.Point[x=446,y=460], java.awt.Point[x=450,y=91], java.awt.Point[x=45,y=54]]}]
+23:02:14 - ( square ) Sending message [2|13||RESULT|4]
+23:02:14 - ( triang ) Got message [0|26||RESULT|2]
+Got results: [DhtResult{key='2', values=[java.awt.Point[x=250,y=284], java.awt.Point[x=313,y=284], java.awt.Point[x=344,y=284], java.awt.Point[x=422,y=392], java.awt.Point[x=461,y=446], java.awt.Point[x=418,y=365], java.awt.Point[x=459,y=433], java.awt.Point[x=480,y=467], java.awt.Point[x=428,y=376], java.awt.Point[x=402,y=330], java.awt.Point[x=326,y=415], java.awt.Point[x=351,y=350], java.awt.Point[x=301,y=425], java.awt.Point[x=401,y=463], java.awt.Point[x=326,y=482], java.awt.Point[x=413,y=491], java.awt.Point[x=332,y=496], java.awt.Point[x=291,y=498], java.awt.Point[x=396,y=499], java.awt.Point[x=448,y=500], java.awt.Point[x=349,y=500], java.awt.Point[x=362,y=392], java.awt.Point[x=306,y=446], java.awt.Point[x=341,y=365], java.awt.Point[x=358,y=325], java.awt.Point[x=429,y=413], java.awt.Point[x=465,y=457], java.awt.Point[x=358,y=479], java.awt.Point[x=367,y=382], java.awt.Point[x=309,y=441], java.awt.Point[x=405,y=471], java.awt.Point[x=453,y=486], java.awt.Point[x=414,y=385], java.awt.Point[x=395,y=335], java.awt.Point[x=323,y=418], java.awt.Point[x=287,y=459], java.awt.Point[x=331,y=372], java.awt.Point[x=291,y=436], java.awt.Point[x=271,y=468], java.awt.Point[x=323,y=376], java.awt.Point[x=349,y=330], java.awt.Point[x=300,y=415], java.awt.Point[x=275,y=458], java.awt.Point[x=388,y=479], java.awt.Point[x=319,y=490], java.awt.Point[x=285,y=495], java.awt.Point[x=393,y=498], java.awt.Point[x=322,y=499], java.awt.Point[x=349,y=392], java.awt.Point[x=362,y=338], java.awt.Point[x=306,y=419], java.awt.Point[x=278,y=460], java.awt.Point[x=264,y=480], java.awt.Point[x=320,y=382], java.awt.Point[x=348,y=333], java.awt.Point[x=424,y=417], java.awt.Point[x=400,y=351], java.awt.Point[x=325,y=426], java.awt.Point[x=350,y=355], java.awt.Point[x=300,y=428], java.awt.Point[x=338,y=356], java.awt.Point[x=419,y=428], java.awt.Point[x=397,y=356], java.awt.Point[x=449,y=428], java.awt.Point[x=350,y=464], java.awt.Point[x=425,y=482], java.awt.Point[x=338,y=491], java.awt.Point[x=294,y=496], java.awt.Point[x=335,y=390], java.awt.Point[x=418,y=445], java.awt.Point[x=334,y=473], java.awt.Point[x=417,y=487], java.awt.Point[x=459,y=494], java.awt.Point[x=355,y=497], java.awt.Point[x=428,y=499], java.awt.Point[x=464,y=500], java.awt.Point[x=482,y=500], java.awt.Point[x=366,y=500], java.awt.Point[x=371,y=392], java.awt.Point[x=311,y=446], java.awt.Point[x=343,y=365], java.awt.Point[x=422,y=433], java.awt.Point[x=336,y=467], java.awt.Point[x=293,y=484], java.awt.Point[x=272,y=492], java.awt.Point[x=261,y=496], java.awt.Point[x=256,y=498], java.awt.Point[x=378,y=499], java.awt.Point[x=439,y=500], java.awt.Point[x=407,y=392], java.awt.Point[x=391,y=338], java.awt.Point[x=446,y=419], java.awt.Point[x=348,y=460], java.awt.Point[x=362,y=372], java.awt.Point[x=306,y=436], java.awt.Point[x=403,y=468], java.awt.Point[x=452,y=484], java.awt.Point[x=476,y=492], java.awt.Point[x=426,y=388], java.awt.Point[x=401,y=336], java.awt.Point[x=451,y=418], java.awt.Point[x=476,y=459], java.awt.Point[x=488,y=480], java.awt.Point[x=369,y=490], java.awt.Point[x=310,y=495], java.awt.Point[x=343,y=390], java.awt.Point[x=422,y=445], java.awt.Point[x=461,y=473], java.awt.Point[x=418,y=379], java.awt.Point[x=397,y=332], java.awt.Point[x=386,y=308], java.awt.Point[x=443,y=404], java.awt.Point[x=347,y=452], java.awt.Point[x=299,y=476], java.awt.Point[x=275,y=488], java.awt.Point[x=263,y=494], java.awt.Point[x=257,y=497], java.awt.Point[x=254,y=499], java.awt.Point[x=252,y=500], java.awt.Point[x=376,y=500], java.awt.Point[x=313,y=500], java.awt.Point[x=282,y=500], java.awt.Point[x=391,y=500], java.awt.Point[x=321,y=500], java.awt.Point[x=411,y=500], java.awt.Point[x=393,y=392], java.awt.Point[x=322,y=446], java.awt.Point[x=411,y=473], java.awt.Point[x=331,y=487], java.awt.Point[x=416,y=494], java.awt.Point[x=333,y=497], java.awt.Point[x=354,y=391], java.awt.Point[x=302,y=446], java.awt.Point[x=276,y=473], java.awt.Point[x=388,y=487], java.awt.Point[x=444,y=494], java.awt.Point[x=347,y=497], java.awt.Point[x=424,y=499], java.awt.Point[x=462,y=500], java.awt.Point[x=356,y=500], java.awt.Point[x=366,y=392], java.awt.Point[x=371,y=338], java.awt.Point[x=311,y=419], java.awt.Point[x=343,y=352], java.awt.Point[x=297,y=426], java.awt.Point[x=399,y=463], java.awt.Point[x=450,y=482], java.awt.Point[x=350,y=491], java.awt.Point[x=425,y=496], java.awt.Point[x=338,y=498], java.awt.Point[x=357,y=391], java.awt.Point[x=429,y=446], java.awt.Point[x=340,y=473], java.awt.Point[x=420,y=487], java.awt.Point[x=460,y=494], java.awt.Point[x=355,y=497], java.awt.Point[x=428,y=499], java.awt.Point[x=339,y=500], java.awt.Point[x=357,y=392], java.awt.Point[x=366,y=338], java.awt.Point[x=371,y=311], java.awt.Point[x=373,y=298], java.awt.Point[x=374,y=291], java.awt.Point[x=312,y=396], java.awt.Point[x=344,y=340], java.awt.Point[x=297,y=420], java.awt.Point[x=274,y=460], java.awt.Point[x=262,y=480], java.awt.Point[x=381,y=490], java.awt.Point[x=316,y=495], java.awt.Point[x=283,y=498], java.awt.Point[x=392,y=499], java.awt.Point[x=446,y=500], java.awt.Point[x=348,y=500], java.awt.Point[x=299,y=500], java.awt.Point[x=400,y=500], java.awt.Point[x=450,y=500], java.awt.Point[x=475,y=500], java.awt.Point[x=425,y=392], java.awt.Point[x=338,y=446], java.awt.Point[x=357,y=365], java.awt.Point[x=366,y=325], java.awt.Point[x=433,y=413], java.awt.Point[x=467,y=457], java.awt.Point[x=421,y=371], java.awt.Point[x=398,y=328], java.awt.Point[x=387,y=306], java.awt.Point[x=444,y=403], java.awt.Point[x=472,y=452], java.awt.Point[x=486,y=476], java.awt.Point[x=368,y=488], java.awt.Point[x=434,y=494], java.awt.Point[x=342,y=497], java.awt.Point[x=421,y=499], java.awt.Point[x=461,y=500], java.awt.Point[x=481,y=500], java.awt.Point[x=366,y=500]]}]
+23:02:14 - ( triang ) Sending message [2|12||RESULT|0]
+23:02:15 - ( triang ) Sending message [2|14||RESULT|1]
+23:02:22 - ########################## INFO ##########################
+23:02:22 - FractalID: 1
+23:02:22 - JobID: square
+23:02:22 - Working: true
+23:02:22 - Parent: null
+23:02:22 - Neighbors: [[0|localhost|1100], [2|localhost|1400], [3|localhost|1600]]
+23:02:22 - Children: []
+23:02:22 - ----------------------------------------------------------
+23:02:22 - FractalID: 2
+23:02:22 - JobID: triangle
+23:02:22 - Working: true
+23:02:22 - Parent: null
+23:02:22 - Neighbors: [[0|localhost|1100], [1|localhost|1200]]
+23:02:22 - Children: []
+23:02:22 - ----------------------------------------------------------
+23:02:22 - Stopping...
+I'm dead.
+I'm dead.
